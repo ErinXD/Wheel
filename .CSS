@@ -1,0 +1,47 @@
+
+.contenedor{
+  width:100%;
+  height:auto;
+  position:fixed;
+}
+.result{
+  font-size:1.5em;
+}
+
+body{ 
+  background: fixed url("https://sun9-17.userapi.com/impg/3DenotHJFfIfrh1Dp6XGQEPf6s2ky4UOBc1xtg/N2UBABHFzjo.jpg?size=1920x1080&quality=96&proxy=1&sign=1d1b392950ac1dc0dbcdb6a241c539d5"); 
+}
+
+button{
+  border:1px solid #333;
+  background:#7712fd;
+  color:#fff;
+  font-size:2em;
+}
+.result{
+  color: white;
+}
+.pico{
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-top: 80px solid white;
+  margin:0;
+  z-index:99999;
+  position:fixed;
+  left:50%;
+  top:250px;
+  transform:translate(-50%,-55%);
+}
+#Rueda{
+  margin:0 auto;
+  margin-top: 200px;
+  margin-left: 650px;
+  width:610px;
+  height:610px;
+  position:absolute;
+  background:transparent url(https://lh3.googleusercontent.com/ImHiOo5nCEIdpRuyBvCsTRdEVmoORz1Mnw1ThGWl6yZtREsEwb4XxY70VgwIt7oQFElBOi7eQhctJw-YYgTHfJOrzujjqitCvpO3vqzSUZ0RU3jbNKeK8krEI8h82LsLeWqQIz76d1jSfMMyDXxHzmqeCzmZzQph3wosDLN7z-mGwq7FDkEYeDC3vnzwM5HM3BVvNJUguEHAv4CYCpfOkgAwnU12fCizqbZCXqcJ5cHvkffoiV-FlOSjmacCDkbHdYcWCM59L4XSLAX7Ku4fG0OrvFi01cjCCpmXzHTYLdDRlYPfYNntI8LWncbasv2ohmsv_hm2f1TBdmoEoNhYwPMItWJRXY0FDGc11fL4rbEukkCc5KMNg_iBH2kmTxJtdYGGwBtu-UsvrRy21k9qJpTWdHV9rzUCCtTmRzZIx7J8xg7-3W-YBu5cGHkIQXuUhzwdLfhHJPJ2J7qPQauygEwgYYoQhIdo5elumpXSFrxLY8ygfWweEA7n1OaGARiXk1-MlMa2Eijr5ig4zFJmwdigR92HVecO4TTckLcDLV5zPkHfdgjpSBoPy2OcpuDFc90xYxyCLMUO0STKNtVjSvI3h_VdF2i3TsX9rGORdWpsLcXLun2KJP4h3h5UxRyu1kVMED3JTZZuEioFGfqLVNkWrG90i_XH-bOGgIoEDsrxA4Q8mNDPlYNiqDDaKnGmno52KunBOrLJS9NIWlAv2brDdA=s969-no) 0 0 no-repeat;
+  background-size:cover;
+}
